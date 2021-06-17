@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/back.jpg");
+  min-height: 500px;
+}
+
+.bgimg-2 {
+ 
+  min-height: 1000px;
+}
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.bgimg-3 {
+  background-image: url("images/back.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  color: #000;
+}
+.container{
+  max-width=1000px;
+  margin:70px;
+  background: #f2f2f2;
+  overflow: auto;
+}
+.gallery{
+  margin:15px;
+  border:1px solid #ccc;
+  float:left;
+  width:390px;
+}
+.desc{
+  padding:15px;
+  text-align: center;
+}
+.gallery-img{
+
+}
+.caption span.border {
+  background-color: #111;
+  color: orange;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 40px "Lato", cursive;
+  color: #111;
+}
+.text{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">OUR ELECTRIC SHOP</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+<!--  <h3 style="text-align:center;">OUR ELECTRIC SHOP</h3> -->
+  <p>Established in 2000 and serving to the local people since 21 years.Bringing all the items to your door.We are happy that you always trusted us.</p>
+  <h1 style="float:right;color:black;">People's Choice Since 2000</h1>
+</div>
+
+<div class="bgimg-2">
+	<div class="container">
+    <div class="gallery">
+  <img src="images/3m-tapes.jpg" hspace=40 vspace=40 height="300" width="300" style="border: 5px solid #555;">
+  <div class="desc">Rs 300</div>
+</div>
+    <div class="gallery">
+<img src="images/bulb.jpg" hspace=40 vspace=40 height="300" width="300" style=" border: 5px solid #555;">
+  <div class="desc">Rs 100</div>
+</div>
+<div class="gallery">
+   <img src="images/comp.jpg"hspace=40 vspace=40 height="300" width="300"style=" border: 5px solid #555;">
+   <div class="desc">Rs 370</div>
+</div>
+<div class="gallery">
+  <img src="images/lead.jfif"hspace=40 vspace=40 height="300" width="300" style=" border: 5px solid #555;">
+  <div class="desc">Rs 500</div>
+</div>
+<div class="gallery">
+  <img src="images/or.jpg"hspace=40 vspace=40 height="300" width="300" style=" border: 5px solid #555;">
+  <div class="desc">Rs 150</div>
+</div>
+<div class="gallery">
+   <img src="images/wires.jpg"hspace=40 vspace=40 height="300" width="300" style=" border: 5px solid #555;">
+<div class="desc">Rs 500</div>
+</div>
+  </div>
+</div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Shop No. 324 ,Azad Chowk ,Bhilwara<br>
+  Contacts:872346890,987345134<br>
+
+   </p>
+  </div>
+</div>
+</body>
+</html>
